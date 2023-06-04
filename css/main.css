@@ -1,0 +1,71 @@
+.app {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.card-header {
+  background-color: rebeccaPurple;
+}
+
+.table_th {
+  background-color: transparent !important;
+  border-bottom: none !important;
+}
+
+.items {
+  border-top: 1px solid #ccc;
+}
+
+.table td, .table th {
+  border: none !important;
+}
+
+#remove-table-item {
+  color: black;
+  transition: all 3s;
+}
+
+.title {
+  color: white;
+}
+
+.card-footer {
+  color: white;
+  background-color: rebeccapurple;
+  padding: 20px;
+}
+
+.row, 
+.mb-2 {
+  margin-bottom: 0 !important;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 14px;
+  }
+
+  .app {
+    padding: 0px;
+  }
+
+  .row {
+    display: block;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .card-body {
+    padding: .7rem;
+  }
+
+  .form-inputs {
+    display: flex;
+    flex-direction: column;
+    /* width: 70%; */
+    margin: 0 auto;
+    gap: 17px;
+  }
+} 
